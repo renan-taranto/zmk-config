@@ -1,6 +1,0 @@
-/ {
-    bt {
-        compatible = "zmk,behavior";
-        erase-bonds-on-press = <1>;
-    };
-};
