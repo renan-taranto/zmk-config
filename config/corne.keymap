@@ -74,10 +74,10 @@
 
         navigation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans       &trans         &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN     &kp UP_ARROW   &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN  &kp END    &trans
-                        &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &trans  &trans
+                        &trans  &trans  &trans    &trans          &trans          &trans
             >;
         };
     };
