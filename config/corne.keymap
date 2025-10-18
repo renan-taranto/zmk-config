@@ -22,10 +22,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E         &kp R        &kp T        &kp Y                 &kp U            &kp I         &kp O    &kp P      &kp SQT
-&kp LCTRL  &kp A  &kp S  &kp D         &kp F        &kp G        &kp H                 &kp J            &kp K         &kp L    &kp CARET  &kp GRAVE
-&kp LGUI   &kp Z  &kp X  &kp C         &kp V        &kp B        &kp N                 &kp M            &kp COMMA     &kp DOT  &kp SEMI   &kp LEFT_ALT
-                         &lt 3 ESCAPE  &lt 1 SPACE  &lt 2 TAB    &mt LEFT_SHIFT ENTER  &lt 5 BACKSPACE  &lt 4 DELETE
+&kp LCMD      &kp Q  &kp W  &kp E         &kp R        &kp T        &kp Y                 &kp U            &kp I         &kp O    &kp P      &kp SQT
+&kp LCTRL     &kp A  &kp S  &kp D         &kp F        &kp G        &kp H                 &kp J            &kp K         &kp L    &kp CARET  &kp GRAVE
+&kp LEFT_ALT  &kp Z  &kp X  &kp C         &kp V        &kp B        &kp N                 &kp M            &kp COMMA     &kp DOT  &kp SEMI   &kp SLASH
+                            &lt 3 ESCAPE  &lt 1 SPACE  &lt 2 TAB    &mt LEFT_SHIFT ENTER  &lt 5 BACKSPACE  &lt 4 DELETE
             >;
         };
 
@@ -67,10 +67,10 @@
 
         symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp EXCLAMATION  &kp AMPERSAND  &kp ASTERISK  &kp LBKT              &kp RBKT                 &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp PERCENT      &kp MINUS      &kp DOLLAR    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &kp AT         &kp HASH      &kp BACKSLASH         &kp EQUAL                &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans        &trans                &trans                   &trans  &trans  &trans
             >;
         };
     };
