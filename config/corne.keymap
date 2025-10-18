@@ -31,10 +31,10 @@
 
         navigation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans      &kp LEFT   &kp DOWN    &kp UP       &kp RIGHT   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans      &kp HOME   &kp PG_DN   &kp PG_UP    &kp END     &trans
-                        &trans  &trans  &trans    &trans      &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp C_AC_UNDO  &kp C_AC_CUT  &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_REDO  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans         &kp LEFT      &kp DOWN       &kp UP          &kp RIGHT      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans         &kp HOME      &kp PG_DN      &kp PG_UP       &kp END        &trans
+                        &trans  &trans  &trans    &trans         &trans        &trans
             >;
         };
 
