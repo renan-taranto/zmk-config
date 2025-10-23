@@ -51,10 +51,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&lt 5 LGUI        &kp Q  &kp W    &kp E    &kp R      &kp T       &kp Y      &kp U                     &kp I       &kp O    &kp P      &doublequote_exclamation
-&kp TAB           &kp A  &lt 3 S  &lt 2 D  &lt 1 F    &kp G       &kp H      &kp J                     &kp K       &lt 4 L  &kp SEMI   &apostrophe_grave
-&kp LEFT_CONTROL  &kp Z  &kp X    &kp C    &kp V      &kp B       &kp N      &kp M                     &kp COMMA   &kp DOT  &kp SLASH  &carret_tilde
-                                  &kp ESC  &kp SPACE  &kp LALT    &kp ENTER  &mt LEFT_SHIFT BACKSPACE  &kp DELETE
+&lt 5 LEFT_GUI    &kp Q  &kp W  &kp E           &kp R               &kp T          &kp Y      &kp U               &kp I           &kp O    &kp P      &doublequote_exclamation
+&kp TAB           &kp A  &kp S  &mt LEFT_ALT D  &mt LEFT_CONTROL F  &kp G          &kp H      &mt LEFT_CONTROL J  &mt LEFT_ALT K  &kp L    &kp SEMI   &apostrophe_grave
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C           &kp V               &kp B          &kp N      &kp M               &kp COMMA       &kp DOT  &kp SLASH  &carret_tilde
+                                &lt 2 ESCAPE    &lt 1 BACKSPACE     &lt 3 SPACE    &kp ENTER  &kp LEFT_SHIFT      &lt 4 DELETE
             >;
         };
 
@@ -87,10 +87,10 @@
 
         symbols {
             bindings = <
-&trans  &trans       &kp AMPERSAND  &kp ASTERISK  &kp LBKT              &kp RBKT                 &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp PERCENT  &kp MINUS      &kp DOLLAR    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &kp AT         &kp HASH      &kp BACKSLASH         &kp EQUAL                &trans  &trans  &trans  &trans  &trans  &trans
-                                    &trans        &trans                &trans                   &trans  &trans  &trans
+&kp HASH     &kp AT_SIGN    &kp AMPERSAND  &kp ASTERISK  &kp LBKT              &kp RBKT                 &trans  &trans  &trans  &trans  &trans  &trans
+&kp PERCENT  &kp UNDER      &kp MINUS      &kp DOLLAR    &kp LEFT_BRACE        &kp RIGHT_BRACE          &trans  &trans  &trans  &trans  &trans  &trans
+&kp PIPE     &kp BACKSLASH  &kp EQUAL      &kp PLUS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans  &trans  &trans  &trans  &trans  &trans
+                                           &trans        &trans                &trans                   &trans  &trans  &trans
             >;
         };
 
