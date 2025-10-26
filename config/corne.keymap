@@ -10,28 +10,10 @@
 
 / {
     behaviors {
-        carret_tilde: carret_tilde {
+        carret_exclamation: carret_exclamation {
             compatible = "zmk,behavior-mod-morph";
-            label = "CARRET_TILDE";
-            bindings = <&kp TILDE>, <&kp CARET>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        apostrophe_grave: apostrophe_grave {
-            compatible = "zmk,behavior-mod-morph";
-            label = "APOSTROPHE_GRAVE";
-            bindings = <&kp APOS>, <&kp GRAVE>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        doublequote_exclamation: doublequote_exclamation {
-            compatible = "zmk,behavior-mod-morph";
-            label = "DOUBLEQUOTE_EXCLAMATION";
-            bindings = <&kp EXCLAMATION>, <&kp DOUBLE_QUOTES>;
+            label = "CARRET_EXCLAMATION";
+            bindings = <&kp CARET>, <&kp EXCLAMATION>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -51,9 +33,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&lt 5 LGUI        &kp Q  &kp W  &kp E         &kp R        &kp T        &kp Y      &kp U                     &kp I         &kp O    &kp P      &doublequote_exclamation
-&kp LEFT_CONTROL  &kp A  &kp S  &kp D         &kp F        &kp G        &kp H      &kp J                     &kp K         &kp L    &kp SEMI   &apostrophe_grave
-&kp LEFT_ALT      &kp Z  &kp X  &kp C         &kp V        &kp B        &kp N      &kp M                     &kp COMMA     &kp DOT  &kp SLASH  &carret_tilde
+&lt 5 LGUI        &kp Q  &kp W  &kp E         &kp R        &kp T        &kp Y      &kp U                     &kp I         &kp O    &kp P      &kp SINGLE_QUOTE
+&kp LEFT_CONTROL  &kp A  &kp S  &kp D         &kp F        &kp G        &kp H      &kp J                     &kp K         &kp L    &kp SEMI   &kp GRAVE
+&kp LEFT_ALT      &kp Z  &kp X  &kp C         &kp V        &kp B        &kp N      &kp M                     &kp COMMA     &kp DOT  &kp SLASH  &carret_exclamation
                                 &lt 2 ESCAPE  &lt 1 SPACE  &lt 3 TAB    &kp ENTER  &mt LEFT_SHIFT BACKSPACE  &lt 4 DELETE
             >;
         };
