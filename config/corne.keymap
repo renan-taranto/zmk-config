@@ -87,10 +87,10 @@
 
         symbols {
             bindings = <
-&kp HASH     &kp AT_SIGN    &kp AMPERSAND  &kp ASTERISK  &kp LBKT              &kp RBKT                 &trans  &trans  &trans  &trans  &trans  &trans
-&kp PERCENT  &kp UNDER      &kp MINUS      &kp DOLLAR    &kp LEFT_BRACE        &kp RIGHT_BRACE          &trans  &trans  &trans  &trans  &trans  &trans
-&kp PIPE     &kp BACKSLASH  &kp EQUAL      &kp PLUS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans  &trans  &trans  &trans  &trans  &trans
-                                           &trans        &trans                &trans                   &trans  &trans  &trans
+&kp HASH      &kp AT_SIGN    &kp AMPERSAND   &kp DOLLAR   &kp LBKT              &kp RBKT                 &trans  &trans  &trans  &trans  &trans  &trans
+&kp ASTERISK  &kp PLUS       &kp MINUS       &kp EQUAL    &kp LEFT_BRACE        &kp RIGHT_BRACE          &trans  &trans  &trans  &trans  &trans  &trans
+&kp PIPE      &kp BACKSLASH  &kp UNDERSCORE  &kp PERCENT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans  &trans  &trans  &trans  &trans  &trans
+                                             &trans       &trans                &trans                   &trans  &trans  &trans
             >;
         };
 
