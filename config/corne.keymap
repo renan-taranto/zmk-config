@@ -39,6 +39,11 @@
             bindings = <&mo 4>;
             key-positions = <0 12>;
         };
+
+        combo_del {
+            bindings = <&kp DEL>;
+            key-positions = <40 41>;
+        };
     };
 
     keymap {
