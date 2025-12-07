@@ -46,6 +46,15 @@
         };
     };
 
+    macros {
+        right_arrow: right_arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp GREATER_THAN>;
+            label = "RIGHT_ARROW";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -86,9 +95,9 @@
 
         symbols {
             bindings = <
-&kp HASH      &kp AT_SIGN    &kp AMPERSAND   &kp DOLLAR   &kp LBKT              &kp RBKT                 &trans  &trans  &trans  &trans  &trans  &trans
-&kp ASTERISK  &kp PLUS       &kp MINUS       &kp EQUAL    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans  &trans  &trans  &trans  &trans  &trans
-&kp PIPE      &kp BACKSLASH  &kp UNDERSCORE  &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE          &trans  &trans  &trans  &trans  &trans  &trans
+&kp HASH      &kp AT_SIGN    &kp AMPERSAND   &kp DOLLAR   &kp LBKT              &kp RBKT                 &trans  &trans  &trans  &trans        &trans  &trans
+&kp ASTERISK  &kp PLUS       &kp MINUS       &kp EQUAL    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans  &trans  &trans  &trans        &trans  &trans
+&kp PIPE      &kp BACKSLASH  &kp UNDERSCORE  &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE          &trans  &trans  &trans  &right_arrow  &trans  &trans
                                              &trans       &trans                &trans                   &trans  &trans  &trans
             >;
         };
