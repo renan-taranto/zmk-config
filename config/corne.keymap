@@ -82,10 +82,10 @@
 
         nav_func {
             bindings = <
-&kp F1  &kp F2     &kp F3     &kp F4     &kp F5     &kp F6    &kp F7         &kp F8    &kp F9    &kp F10  &kp F11    &kp F12
-&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &trans    &kp PAGE_UP    &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &kp HOME
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans    &kp PAGE_DOWN  &trans    &trans    &trans   &trans     &kp END
-                              &trans     &trans     &trans    &trans         &trans    &trans
+&kp F1  &kp F2      &kp F3     &kp F4      &kp F5       &kp F6    &kp F7         &kp F8    &kp F9                   &kp F10                  &kp F11    &kp F12
+&trans  &kp LG(A)   &kp LG(S)  &kp LG(D)   &kp LG(F)    &trans    &kp PAGE_UP    &kp LEFT  &kp DOWN                 &kp UP                   &kp RIGHT  &kp HOME
+&trans  &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &trans    &kp PAGE_DOWN  &trans    &kp LG(LS(KP_NUMBER_4))  &kp LS(LG(KP_NUMBER_3))  &trans     &kp END
+                               &trans      &trans       &trans    &trans         &trans    &trans
             >;
         };
 
@@ -100,16 +100,16 @@
 
         symbols {
             bindings = <
-&kp HASH      &kp AT_SIGN    &kp AMPERSAND   &kp DOLLAR   &kp LBKT              &kp RBKT                 &trans  &trans  &trans  &trans        &trans  &trans
-&kp ASTERISK  &kp PLUS       &kp MINUS       &kp EQUAL    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans  &trans  &trans  &trans        &trans  &trans
-&kp PIPE      &kp BACKSLASH  &kp UNDERSCORE  &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE          &trans  &trans  &trans  &right_arrow  &trans  &trans
-                                             &trans       &trans                &trans                   &trans  &trans  &trans
+&kp HASH      &kp AT_SIGN    &kp AMPERSAND   &kp DOLLAR   &kp LBKT              &kp RBKT                 &trans  &trans     &trans     &trans        &trans           &trans
+&kp ASTERISK  &kp PLUS       &kp MINUS       &kp EQUAL    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans  &kp TILDE  &kp CARET  &kp GRAVE     &kp EXCLAMATION  &trans
+&kp PIPE      &kp BACKSLASH  &kp UNDERSCORE  &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE          &trans  &trans     &trans     &right_arrow  &trans           &trans
+                                             &trans       &trans                &trans                   &trans  &trans     &trans
             >;
         };
 
         media {
             bindings = <
-&none  &none  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none             &none  &none           &mkp MB1        &mkp MB2      &none            &kp PRINTSCREEN
+&none  &none  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none             &none  &none           &mkp MB1        &mkp MB2      &none            &none
 &none  &none  &none       &none         &none         &none             &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
 &none  &none  &none       &none         &bt BT_CLR    &bt BT_CLR_ALL    &none  &none           &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3
                           &none         &none         &none             &none  &none           &none
