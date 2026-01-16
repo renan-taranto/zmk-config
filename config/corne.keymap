@@ -73,19 +73,19 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt LEFT_CONTROL ESCAPE  &kp Q  &kp W  &kp E            &kp R      &kp T        &kp Y      &kp U           &kp I         &kp O    &kp P      &tilde_grave
-&kp LGUI                 &kp A  &kp S  &kp D            &kp F      &kp G        &kp H      &kp J           &kp K         &kp L    &kp SEMI   &kp SINGLE_QUOTE
-&kp LEFT_ALT             &kp Z  &kp X  &kp C            &kp V      &kp B        &kp N      &kp M           &kp COMMA     &kp DOT  &kp SLASH  &carret_exclamation
-                                       &lt 2 BACKSPACE  &kp SPACE  &lt 1 TAB    &kp ENTER  &kp LEFT_SHIFT  &lt 3 DELETE
+&kp ESCAPE    &kp Q  &kp W  &kp E            &kp R      &kp T    &kp Y      &kp U           &kp I         &kp O    &kp P      &kp TAB
+&kp LGUI      &kp A  &kp S  &kp D            &kp F      &kp G    &kp H      &kp J           &kp K         &kp L    &kp SEMI   &kp SINGLE_QUOTE
+&kp LEFT_ALT  &kp Z  &kp X  &kp C            &kp V      &kp B    &kp N      &kp M           &kp COMMA     &kp DOT  &kp SLASH  &kp LEFT_CONTROL
+                            &lt 2 BACKSPACE  &kp SPACE  &mo 1    &kp ENTER  &kp LEFT_SHIFT  &lt 3 DELETE
             >;
         };
 
         nav_func {
             bindings = <
-&kp F1  &kp F2      &kp F3     &kp F4      &kp F5       &kp F6    &kp F7         &kp F8    &kp F9                   &kp F10                  &kp F11    &kp F12
-&trans  &kp LG(A)   &kp LG(S)  &kp LG(D)   &kp LG(F)    &trans    &kp PAGE_UP    &kp LEFT  &kp DOWN                 &kp UP                   &kp RIGHT  &kp HOME
-&trans  &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &trans    &kp PAGE_DOWN  &trans    &kp LG(LS(KP_NUMBER_4))  &kp LS(LG(KP_NUMBER_3))  &trans     &kp END
-                               &trans      &trans       &trans    &trans         &trans    &trans
+&kp F1  &kp F2     &kp F3     &kp F4     &kp F5     &kp F6    &kp F7         &kp F8       &kp F9                &kp F10               &kp F11    &kp F12
+&trans  &kp LG(A)  &kp LG(S)  &trans     &trans     &trans    &kp PAGE_UP    &kp LEFT     &kp DOWN              &kp UP                &kp RIGHT  &kp HOME
+&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &kp PAGE_DOWN  &kp LC(TAB)  &kp LG(LS(NUMBER_4))  &kp LS(LG(NUMBER_3))  &trans     &kp END
+                              &trans     &trans     &trans    &trans         &trans       &trans
             >;
         };
 
